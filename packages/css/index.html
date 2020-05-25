@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中间镂空</title>
+    <style>
+
+        .div1 {
+            width: 160px;
+            height: 160px;
+            background-color: #f0f;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .div2 {
+            width: 80px;
+            height: 80px;
+            margin: auto;
+            outline: 9999px solid rgba(0, 0, 0, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2"></div>
+    </div>
+</body>
+</html>
